@@ -1,4 +1,4 @@
-streamlit==0.63.1
+streamlit>= 1.9.2
 matplotlib==3.2.2
 numpy==1.18.5
 DateTime==4.3
@@ -7,3 +7,4 @@ plotly==4.14.3
 boto
 pandas
 scikit-learn
+protobuf==3.20.1
