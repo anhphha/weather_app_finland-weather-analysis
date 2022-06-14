@@ -1,0 +1,80 @@
+<div class="jumbotron">
+    <h1 class="display-4"><strong> 5 Day Weather Forecast </strong></h1>
+    <p class="lead">Write the name of a City and select the Temperature Unit and Graph Type from the sidebar</p>
+    <hr class="my-4">
+</div>
+
+<form>
+    <fieldset disabled>
+        <div class="mb-3">
+            <label for="city name" class="form-label"><strong>NAME OF THE CITY :</strong></label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Helsinki">
+        </div>
+    </fieldset>
+    <select class="form-select" aria-label="Default select example">
+        <label for="Select Temperature Unit" class="form-label">Helsinki</label>
+        <option selected>Open this select menu</option>
+        <option value="1">Celsius</option>
+        <option value="2">Fahrenheit</option>
+    </select>
+
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
+
+<div class="float-none"><strong>Sunrise time in Helsinki :</strong></div>
+<div class="float-none"><strong>Minimum and Maximum Temperatures :</strong></div>
+<div class="float-none"><strong>Impending Temperature Changes :</strong></div>
+<div class="float-none"><strong>Cloud coverage and wind speed :</strong></div>
+<div class="float-none"><strong>Sunrise and Sunset Times :</strong></div>
+
+<script src = "https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+<canvas id="chart" width="400" height= "400"></canvas>
+<script>
+    const xlabel = [];
+    const ytemps = [];
+
+    chartit();
+    async function chartit(){
+        getData();
+        const ctx = document.getElementById('chart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: xlabel,
+                datasets: [{
+                    label: 'Minimum temperature',
+                    data: ytemps,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+        });
+    }
+
+    import {get_temperature, label_xaxis, plot_temperatures} from 'weather_app.py';
+    import {plot_temperatures_line, draw_bar_chart, draw_line_chart} from 'weather_app.py';
+    import {min_and_max_temp, init_plot, other_weather_updates} from 'weather_app.py';
+    import {updates,cloud_and_wind,sunrise_and_sunset} from 'weather_app.py';
+
+    function getData(){
+        const weather = draw_line_chart("Helsinki");
+        const date = weather[2];
+        const temp = weather[3];
+        xlabel.push(date);
+        ytemps.push(temp);
+        console.log(date, temp);
+</script>
+
+
