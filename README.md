@@ -12,13 +12,13 @@ A web application to display weather updates
 
 ## Built Using
 
-- Python is an interpreted, object-oriented, high-level programming language with dynamic semantics
-- Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
-- PyOWM is a client Python wrapper library for OpenWeatherMap web APIs. It allows quick and easy consumption of OWM data from Python applications via a simple object model and in a human-friendly fashion.
-- Matplotlib is a plotting library for the Python programming language. It provides an object-oriented API for embedding plots into applications.
-- DateTime provides a DateTime data type . DateTime objects represent instants in time and provide interfaces for controlling its representation without affecting the absolute value of the object.
-- Plotly is a Python library interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
-- Python Open Weather Map API
+- `Python` is an interpreted, object-oriented, high-level programming language with dynamic semantics
+- `Streamlit` is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
+- `PyOWM` is a client Python wrapper library for OpenWeatherMap web APIs. It allows quick and easy consumption of OWM data from Python applications via a simple object model and in a human-friendly fashion.
+- `Matplotlib` is a plotting library for the Python programming language. It provides an object-oriented API for embedding plots into applications.
+- `DateTime` provides a DateTime data type . DateTime objects represent instants in time and provide interfaces for controlling its representation without affecting the absolute value of the object.
+- `Plotly` is a Python library interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+- Python `Open Weather Map API`
 
 ## Required Dependecies that you would need to installed for the development
 - `pip install DateTime`
