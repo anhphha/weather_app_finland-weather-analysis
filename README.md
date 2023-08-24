@@ -1,7 +1,7 @@
-# weather_app_finland-weather-analysis
+# Weather App Finland - Weather Analysis
 A web application to display weather updates
 
-## Features
+## Keys Features
 
 - 5 day weather forecast
 - Impending Weather changes
