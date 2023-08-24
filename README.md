@@ -34,7 +34,7 @@ A web application to display weather updates
 
 https://weather-analysis-finland.herokuapp.com
 
-## :bulb: Helpful commands:
+## :bulb: The required commands for Environment Setups:
 - `source ENV/bin/activate`
 - `python3 -m venv env`
 - `pip install flask requests python-dotenv`
