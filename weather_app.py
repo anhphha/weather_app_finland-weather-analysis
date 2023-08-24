@@ -185,9 +185,9 @@ def updates(place):
 
 if __name__ == '__main__':
     if st.button("SUBMIT"):
-        draw_line_chart()
-        draw_bar_chart()
-        updates()
+        draw_line_chart(place)
+        draw_bar_chart(place)
+        updates(place)
 
     # if st.button("SUBMIT"):
     #     if g_type == 'Line Graph':
