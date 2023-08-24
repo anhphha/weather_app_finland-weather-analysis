@@ -21,11 +21,11 @@ A web application to display weather updates
 - Python `Open Weather Map API`
 
 ## Required Dependecies that you would need to installed for the development
-- `pip install DateTime`
+- `pip3 install DateTime`
 - `pip3 install plotly`
-- `pip install Matplotlib`
-- `pip install Streamlit`
-- `pip install PyOWM`
+- `pip3 install Matplotlib`
+- `pip3 install Streamlit`
+- `pip3 install PyOWM`
 
 ## The required commands for deloyment
 - `streamlit run weather_analysis.py`
