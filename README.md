@@ -46,8 +46,8 @@ https://weather-analysis-finland.herokuapp.com
 
 ### Heroku commands:
 - `heroku login` (log in to Heroku)
-- `heroku create weather-analysis-finland`
-- `heroku config:set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python --app weather-analysis-finland` (this will use pure-Python parsing and will be much slower)
+- `heroku create weather-analytics-app-finland`
+- `heroku config:set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python --app weather-analytics-app-finland` (this will use pure-Python parsing and will be much slower)
 - `heroku config:set BUILDPACK_URL=https://github.com/andrewychoi/heroku-buildpack-scipy.git` (scikit-learn has scipy as dependency, which doesn’t work on heroku without extra work. install a build pack for your project)
 - `git add`
 - `git commit -m`
