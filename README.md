@@ -20,9 +20,9 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 
 |                                        |                                        |
 | -------------------------------------- | -------------------------------------- |
-| <img src="images/1.png"  width="300"/> | <img src="images/2.png"  width="300"/> |
-| <img src="images/3.png" width="300"/>  | <img src="images/4.png" width="300"/>  |
-| <img src="images/5.png" width="300"/>  |
+| <img src="images/1.png"  width="400"/> | <img src="images/2.png"  width="400"/> |
+| <img src="images/3.png" width="400"/>  | <img src="images/4.png" width="400"/>  |
+| <img src="images/5.png" width="400"/>  |
 
 
 ## :books: Required Libraries and Language for this project
@@ -70,7 +70,7 @@ For viewing the app in terminal:
 streamlit run weather_analysis.py
 ```
 
-### <img src="./icons/Heroku.svg" width="48"> Heroku commands for deployment:
+### :tv: Heroku commands for deployment:
 Log in to Heroku and create an app
 ```Python
 heroku login
