@@ -38,8 +38,11 @@ The weather application will provide users with real-time weather information, f
 - `pip3 install Streamlit`
 - `pip3 install PyOWM`
 
-## The required commands for deloyment
-- `streamlit run weather_analysis.py`
+## The required commands for installing all dependencies
+---
+For viewing the app in terminal:
+    streamlit run weather_analysis.py
+
 
 ## :fire: Proof of Concept - Demo Link
 
