@@ -1,9 +1,9 @@
-# Weather App Finland - Weather Analysis
+# :sun_behind_small_cloud: Weather App Finland - Weather Analysis
 A web application to display weather updates in Finland.
 
 The weather application will provide users with real-time weather information, forecasts, and other weather-related data, which can help them make better decisions about their day-to-day activities.
 
-## Keys Features
+## :star2: Keys Features
 
 - 5-Day Weather Forecast
 - Impending Weather changes
@@ -11,6 +11,10 @@ The weather application will provide users with real-time weather information, f
 - Sunrise and sunset times
 - CLoud Coverage
 - Wind Speed
+
+## :fire: Proof of Concept - Demo Link
+
+https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 
 ## :iphone: Screenshots
 
@@ -21,7 +25,7 @@ The weather application will provide users with real-time weather information, f
 | <img src="images/5.png" width="300"/>  |
 
 
-## Built Using
+## :books: Required Libraries and Language for this project
 
 - `Python` is an interpreted, object-oriented, high-level programming language with dynamic semantics
 - `Streamlit` is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
@@ -31,12 +35,12 @@ The weather application will provide users with real-time weather information, f
 - `Plotly` is a Python library interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
 - Python `Open Weather Map API`
 
-## Required Dependecies that you would need to installed for the development
+## :1st_place_medal: Required dependecies that you would need to installed for the development
 ```Python
 pip3 install DateTime
 ```
 ```Python
-pip3 install plotly
+pip3 install Plotly
 ```
 ```Python
 pip3 install Matplotlib
@@ -47,17 +51,9 @@ pip3 install Streamlit
 ```Python
 pip3 install PyOWM
 ```
-
-## The required commands for installing all dependencies
-For viewing the app in terminal:
 ```Python
-streamlit run weather_analysis.py
+pip install Scipy
 ```
-
-
-## :fire: Proof of Concept - Demo Link
-
-https://weather-analysis-finland.herokuapp.com
 
 ## :bulb: The required commands for Environment Setups:
 ```Python
@@ -68,8 +64,13 @@ pip list
 pip freeze > requirements.txt
 ```
 
+## :desktop_computer: The required commands for installing all dependencies in terminal
+For viewing the app in terminal:
+```Python
+streamlit run weather_analysis.py
+```
 
-### Heroku commands for deployment:
+### <img src="./icons/Heroku.svg" width="48"> Heroku commands for deployment:
 Log in to Heroku and create an app
 ```Python
 heroku login
