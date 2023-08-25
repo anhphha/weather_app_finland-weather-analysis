@@ -1,7 +1,7 @@
 # :sun_behind_small_cloud: Weather App Finland - Weather Analytics
 A web application to display weather updates in Finland with user-friendly interface and analytics.
 
-The weather application will provide you with real-time weather information, forecasts, and other weather-related data, allowing full access to a comprehensive range of weather data, such as temperature, humidity, wind speed, and more.
+The weather application will provide you with real-time weather information, forecasts, and other weather-related data, allowing full access to a comprehensive range of weather data, such as temperature, cloud coverage, wind speed, and more.
 
 Whether you're a resident or a visitor, staying informed about the weather has never been easier, ensuring that you can make informed decisions about your day.
 
@@ -10,7 +10,7 @@ Plan your day confidently with accurate forecasts and trends, making sure you're
 ## :star2: Keys Features
 Stay prepared and in the know with this weather application, designed to enhance your daily routines and plans in Helsinki.
 - [x] Real-Time Updates: Get instant access to current weather conditions
-- [x] Comprehensive Data: View detailed information about 5-Day Weather Forecast such as temperature, humidity, wind speed, and more, all at your fingertips
+- [x] Comprehensive Data: View detailed information about 5-Day Weather Forecast such as temperature, cloud coverage, wind speed, and more, all at your fingertips
 - [x] Accurate Forecasts: Plan ahead confidently with reliable forecasts that help you make informed decisions.
 - [x] Intuitive Interface: Navigate the application effortlessly with a user-friendly design for seamless weather tracking
 - [x] Trends and Insights: Stay informed about weather trends over time
