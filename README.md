@@ -9,13 +9,13 @@ Plan your day confidently with accurate forecasts and trends, making sure you're
 
 ## :star2: Keys Features
 Stay prepared and in the know with this weather application, designed to enhance your daily routines and plans in Helsinki.
-- [x] **Real-Time Updates**: Get instant access to current weather conditions
-- [x] **Comprehensive Data**: View detailed information about 5-Day Weather Forecast such as temperature, humidity, wind speed, and more, all at your fingertips
-- [x] **Accurate Forecasts**: Plan ahead confidently with reliable forecasts that help you make informed decisions.
-- [x] **Intuitive Interface**: Navigate the application effortlessly with a user-friendly design for seamless weather tracking
-- [x] **Trends and Insights**: Stay informed about weather trends over time
-- [x] **Responsive Design**: Access the application from various devices, ensuring you're always connected on the go.
-- [x] **Reliable Data Sources**: Rest assured knowing that our data is sourced from trustworthy weather providers.
+- [x] Real-Time Updates: Get instant access to current weather conditions
+- [x] Comprehensive Data: View detailed information about 5-Day Weather Forecast such as temperature, humidity, wind speed, and more, all at your fingertips
+- [x] Accurate Forecasts: Plan ahead confidently with reliable forecasts that help you make informed decisions.
+- [x] Intuitive Interface: Navigate the application effortlessly with a user-friendly design for seamless weather tracking
+- [x] Trends and Insights: Stay informed about weather trends over time
+- [x] Responsive Design: Access the application from various devices, ensuring you're always connected on the go.
+- [x] Reliable Data Sources: Rest assured knowing that our data is sourced from trustworthy weather providers.
 
 ## :fire: Proof of Concept - Demo Link
 
@@ -32,14 +32,14 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 
 ## :books: Required Libraries and Language for this project
 
-- [x] **Python** is an interpreted, object-oriented, high-level programming language with dynamic semantics
-- [x] **Streamlit** is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
-- [x] **PyOWM** is a client Python wrapper library for OpenWeatherMap web APIs. It allows quick and easy consumption of OWM data from Python applications via a simple object model and in a human-friendly fashion.
-- [x] **Matplotlib** is a plotting library for the Python programming language. It provides an object-oriented API for embedding plots into applications.
-- [x] **DateTime** provides a DateTime data type . DateTime objects represent instants in time and provide interfaces for controlling its representation without affecting the absolute value of the object.
-- [x] **Plotly** is a Python library interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
-- [x] **Scipy** is a scientific computation library that uses NumPy underneath. SciPy stands for `Scientific Python`. It provides more utility functions for optimization, stats and signal processing. Like NumPy, SciPy is open source so we can use it freely.
-- [x] Python **Open Weather Map API**
+- [x] `Python` : an interpreted, object-oriented, high-level programming language with dynamic semantics
+- [x] `Streamlit` : an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
+- [x] `PyOWM` : a client Python wrapper library for OpenWeatherMap web APIs. It allows quick and easy consumption of OWM data from Python applications via a simple object model and in a human-friendly fashion.
+- [x] `Matplotlib` : a plotting library for the Python programming language. It provides an object-oriented API for embedding plots into applications.
+- [x] `DateTime` provides a DateTime data type . DateTime objects represent instants in time and provide interfaces for controlling its representation without affecting the absolute value of the object.
+- [x] `Plotly` : a Python library interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+- [x] `Scipy` : a scientific computation library that uses NumPy underneath. SciPy stands for `Scientific Python`. It provides more utility functions for optimization, stats and signal processing. Like NumPy, SciPy is open source so we can use it freely.
+- [x] Python `Open Weather Map API`
 
 ## :1st_place_medal: Required dependecies that you would need to installed for the development
 ```Python
