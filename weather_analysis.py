@@ -15,7 +15,7 @@ mgr=owm.weather_manager()
 
 degree_sign=u'\N{DEGREE SIGN}'
 
-st.title("5 Day Weather Forecast")
+st.title("5-Day Weather Forecast")
 st.write("## Made by Anh Ha")
 st.write("### Write the name of a City and select the Temperature Unit and Graph Type from the sidebar")
 place=st.text_input("NAME OF THE CITY: ", "")
