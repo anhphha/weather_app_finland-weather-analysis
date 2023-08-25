@@ -10,6 +10,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 # API_KEY = os.environ['API_KEY']
+# Note: It is not possible at this point to hide API by PyOWN Libraries when this application was built
+# Note in 2023: Steamlit has allowed developers to manage secret information as a Streamlit app by deloying application to Streamlit platform
 owm = pyowm.OWM('f2894123f53cc162e5772bc4a05eeb08')
 mgr=owm.weather_manager()
 
@@ -37,7 +39,7 @@ def get_temperature():
     dates = []
     temp_min = []
     temp_max = []
-    #Forcaster provides a high level interface to the forecast so you can check whether or not there are
+    #Forecaster provides a high level interface to the forecast so you can check whether or not there are
     #specific weather conditions (such as rain or clouds) in the forecast
     forecaster = mgr.forecast_at_place(place, '3h')
 
