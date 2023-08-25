@@ -20,9 +20,9 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 
 |                                        |                                        |
 | -------------------------------------- | -------------------------------------- |
-| <img src="images/1.png"  width="700"/> | <img src="images/2.png"  width="600"/> |
+| <img src="images/1.png"  width="800"/> | <img src="images/2.png"  width="1000"/> |
 | <img src="images/3.png" width="600"/>  | <img src="images/4.png" width="500"/>  |
-| <img src="images/5.png" width="500"/>  |
+| <img src="images/5.png" width="400"/>  |
 
 
 ## :books: Required Libraries and Language for this project
