@@ -8,16 +8,9 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
-from decouple import Config, Csv
 
-# Access environment variables using Config class
-config = Config()
-
-# Retrieve the API key from the environment variable
-owm_api_key = config('OWM_API_KEY')
-
-# Initialize OWM using the retrieved API key
-owm = pyowm.OWM(owm_api_key)
+# API_KEY = os.environ['API_KEY']
+owm = pyowm.OWM('f2894123f53cc162e5772bc4a05eeb08')
 mgr=owm.weather_manager()
 
 degree_sign=u'\N{DEGREE SIGN}'
