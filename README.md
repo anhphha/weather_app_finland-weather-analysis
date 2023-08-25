@@ -63,20 +63,29 @@ pip install Scipy
 
 ## :bulb: The required commands for Environment Setups:
 ```Python
-source ENV/bin/activate`
+source ENV/bin/activate
+```
+```Python
 python3 -m venv env
+```
+```Python
 pip install flask requests python-dotenv
+```
+```Python
 pip list
+```
+```Python
 pip freeze > requirements.txt
 ```
 
 ## :desktop_computer: The required command for installing all dependencies in terminal
+
 To run the app locally in terminal, please run this command:
 ```Python
 streamlit run weather_analysis.py
 ```
 
-### :tv: Heroku commands for deployment:
+## :tv: Heroku commands for deployment:
 - [x] Log in to Heroku and create an app
 ```Python
 heroku login
