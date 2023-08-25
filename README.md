@@ -8,8 +8,8 @@ The weather application will provide users with real-time weather information, f
 - 5-Day Weather Forecast
 - Impending Weather changes
 - Weather Graph
-- Sunrise and sunset times
-- CLoud Coverage
+- Sunrise and Sunset Times
+- Cloud Coverage
 - Wind Speed
 
 ## :fire: Proof of Concept - Demo Link
@@ -20,9 +20,9 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 
 |                                        |                                        |
 | -------------------------------------- | -------------------------------------- |
-| <img src="images/1.png"  width="400"/> | <img src="images/2.png"  width="400"/> |
-| <img src="images/3.png" width="400"/>  | <img src="images/4.png" width="400"/>  |
-| <img src="images/5.png" width="400"/>  |
+| <img src="images/1.png"  width="600"/> | <img src="images/2.png"  width="600"/> |
+| <img src="images/3.png" width="600"/>  | <img src="images/4.png" width="600"/>  |
+| <img src="images/5.png" width="600"/>  |
 
 
 ## :books: Required Libraries and Language for this project
