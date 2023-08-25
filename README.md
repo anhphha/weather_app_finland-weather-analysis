@@ -20,9 +20,9 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 
 |                                        |                                        |
 | -------------------------------------- | -------------------------------------- |
-| <img src="images/1.png"  width="600"/> | <img src="images/2.png"  width="600"/> |
-| <img src="images/3.png" width="600"/>  | <img src="images/4.png" width="600"/>  |
-| <img src="images/5.png" width="600"/>  |
+| <img src="images/1.png"  width="700"/> | <img src="images/2.png"  width="600"/> |
+| <img src="images/3.png" width="600"/>  | <img src="images/4.png" width="500"/>  |
+| <img src="images/5.png" width="500"/>  |
 
 
 ## :books: Required Libraries and Language for this project
@@ -33,6 +33,7 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 - `Matplotlib` is a plotting library for the Python programming language. It provides an object-oriented API for embedding plots into applications.
 - `DateTime` provides a DateTime data type . DateTime objects represent instants in time and provide interfaces for controlling its representation without affecting the absolute value of the object.
 - `Plotly` is a Python library interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+- `Scipy`is a scientific computation library that uses NumPy underneath. SciPy stands for `Scientific Python`. It provides more utility functions for optimization, stats and signal processing. Like NumPy, SciPy is open source so we can use it freely.
 - Python `Open Weather Map API`
 
 ## :1st_place_medal: Required dependecies that you would need to installed for the development
