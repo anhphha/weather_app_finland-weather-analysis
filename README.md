@@ -41,7 +41,7 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 - [x] `Scipy` : a scientific computation library that uses NumPy underneath. SciPy stands for `Scientific Python`. It provides more utility functions for optimization, stats and signal processing. Like NumPy, SciPy is open source so we can use it freely.
 - [x] Python `Open Weather Map API`
 
-## :1st_place_medal: Required dependecies that you would need to installed for the development
+## :floppy_disk: Required dependencies that you would need to installed for the development
 ```Python
 pip3 install DateTime
 ```
@@ -61,7 +61,7 @@ pip3 install PyOWM
 pip install Scipy
 ```
 
-## :bulb: The required commands for Environment Setups:
+## :hammer_and_wrench: The required commands for Environment Setups:
 ```Python
 source ENV/bin/activate
 ```
