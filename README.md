@@ -1,4 +1,4 @@
-# :sun_behind_small_cloud: Weather App Finland - Weather Analysis
+# :sun_behind_small_cloud: Weather App Finland - Weather Analytics
 A web application to display weather updates in Finland with user-friendly interface and analytics.
 
 The weather application will provide you with real-time weather information, forecasts, and other weather-related data, allowing full access to a comprehensive range of weather data, such as temperature, humidity, wind speed, and more.
