@@ -30,7 +30,7 @@ https://weather-analytics-app-finland-1f9d1dd9167c.herokuapp.com
 | <img src="images/5.png" width="400"/>  |
 
 
-## :books: Required Libraries and Language for this project
+## :books: Required Libraries and Language for Weather Analytics
 
 - [x] `Python` : an interpreted, object-oriented, high-level programming language with dynamic semantics
 - [x] `Streamlit` : an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
@@ -61,7 +61,7 @@ pip3 install PyOWM
 pip install Scipy
 ```
 
-## :hammer_and_wrench: The required commands for Environment Setups:
+## :hammer_and_wrench: The required commands for Environment Setups
 ```Python
 source ENV/bin/activate
 ```
@@ -85,7 +85,7 @@ To run the app locally in terminal, please run this command:
 streamlit run weather_analysis.py
 ```
 
-## :tv: Heroku commands for deployment:
+## :tv: Heroku commands for deployment
 - [x] Log in to Heroku and create an app
 ```Python
 heroku login
